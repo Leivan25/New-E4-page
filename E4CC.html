@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E4CC | Interview Confirmation</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #0c2d48;
+    color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #f26522, #ff7a1a);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 240px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: -40px auto 60px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    padding: 50px 40px;
+}
+
+/* SECTION TITLE */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    color: #0c2d48;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #666;
+}
+
+/* REQUIREMENT CARDS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 14px;
+    border-top: 6px solid #f26522;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    color: #0c2d48;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.card a {
+    color: #f26522;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* ALERT BOX */
+.alert {
+    background: #fff4ed;
+    border-left: 6px solid #f26522;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* FOOTER */
+.footer {
+    background: #0c2d48;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+}
+
+@media(max-width: 768px){
+    .container {
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <img src="e4cc-logo.png" alt="E4CC Logo">
+    <h1>Thank You for Scheduling Your Interview!</h1>
+    <p>
+        Your interview has been successfully scheduled with the E4CC Recruitment Team.  
+        Please check your Inbox and your Spam or Junk folder for your confirmation email.
+    </p>
+</section>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+    <div class="alert">
+        <strong>Important:</strong> You must complete ALL requirements below before your Zoom interview.
+    </div>
+
+    <div class="section-title">
+        <h2>Welcome to E4CC’s Coach Recruitment Process</h2>
+        <p>Please prepare carefully to ensure a successful interview experience.</p>
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>1️⃣ Device Requirement</h3>
+            <p>You must connect using a <strong>laptop or desktop computer.</strong></p>
+            <p>Mobile phones are NOT allowed.</p>
+        </div>
+
+        <div class="card">
+            <h3>2️⃣ Grammar Test (Mandatory)</h3>
+            <p>Complete the grammar test before your interview.</p>
+            <p>⏱ Estimated time: 12 minutes</p>
+            <a href="https://app.testgorilla.com/s/bnm9wczd" target="_blank">
+                👉 Complete Grammar Test
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>3️⃣ Review Grammar Topics</h3>
+            <p>You will explain grammar tenses as if teaching a class.</p>
+            <a href="https://drive.google.com/file/d/1NWJ1ktyJsHc9SKCgA9ZdMlSIzrKqC0-N/view?usp=sharing" target="_blank">
+                👉 Review Reference File
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>4️⃣ Submit Your Information</h3>
+            <p>Upload your resume and valid references for your last two positions.</p>
+            <a href="https://forms.gle/D1AXDiHxQDYZvJxu9" target="_blank">
+                👉 Submit Information
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>5️⃣ Prepare a Sample Class</h3>
+            <p>Watch the video and prepare your demo class.</p>
+            <a href="https://youtu.be/AoK7oVtSItQ" target="_blank">
+                👉 Watch Sample Class
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    We look forward to meeting you on Zoom.<br>
+    <strong>E4CC Recruitment Team</strong>
+</div>
+
+</body>
+</html>
